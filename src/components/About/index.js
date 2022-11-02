@@ -2,7 +2,7 @@ import React from 'react';
 import './style.css'
 function About() {
     return (
-        <div class="container-md" id="about-me">
+        <div class="container-xl" id="about-me">
         <h1>About Me</h1>
         <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, 
             totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
