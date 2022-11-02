@@ -1,0 +1,10 @@
+.carousel {
+    margin: auto;
+    width: 70%;
+    padding: 10px;
+}
+
+.carousel-control-next,
+.carousel-control-prev /*, .carousel-indicators */ {
+    filter: invert(100%);
+}
