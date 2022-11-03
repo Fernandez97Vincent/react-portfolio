@@ -3,6 +3,8 @@ import Footer from './components/Footer'
 import Header from './components/Header'
 import About from './components/About';
 import Projects from './components/Projects';
+import Contact from './components/Contact';
+import ThankYou from "./components/ThankYou";
 import { BrowserRouter as Router, Routes, Route}
     from 'react-router-dom';
 
@@ -22,6 +24,8 @@ function App() {
     <Route path='/' element={<Carousel/>} />
     <Route path='/about' element={<About/>} />
     <Route path='/projects' element={<Projects/>} />
+    <Route path='/contact' element={<Contact/>} />
+    <Route path='/Thank-You' element={<ThankYou/>} />
     </Routes>
     </Router>
     

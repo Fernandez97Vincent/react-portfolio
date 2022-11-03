@@ -1,0 +1,10 @@
+.form-container {
+    width: 60%;
+    justify-content: center;
+    margin: 15rem auto;
+}
+
+.btn-primary {
+    background-color: #7395AE !important;
+    border: none !important;
+}
