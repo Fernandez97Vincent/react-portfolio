@@ -5,7 +5,7 @@ import About from './components/About';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
 import ThankYou from "./components/ThankYou";
-import { BrowserRouter as Router, Routes, Route}
+import { HashRouter as Router, Routes, Route, BrowserRouter, Switch}
     from 'react-router-dom';
 
 
@@ -17,18 +17,18 @@ function App() {
 
     
       
-    <Router>
+    <BrowserRouter>
     
-    <Routes>
+    <Switch>
     {/* <Carousel/>  */}
     <Header/>
-    <Route path='/react-portfolio/' element={<Carousel/>} />
-    <Route path='/react-portfolio/about' element={<About/>} />
-    <Route path='/react-portfolio/projects' element={<Projects/>} />
-    <Route path='/react-portfolio/contact' element={<Contact/>} />
-    <Route path='/react-portfolio/Thank-You' element={<ThankYou/>} />
-    </Routes>
-    </Router>
+    <Route path='/' element={<Carousel/>} />
+    <Route path='/about' element={<About/>} />
+    <Route path='/projects' element={<Projects/>} />
+    <Route path='/contact' element={<Contact/>} />
+    <Route path='/Thank-You' element={<ThankYou/>} />
+    </Switch>
+    </BrowserRouter>
     
     
     
