@@ -21,11 +21,11 @@ function App() {
     
     <Routes>
     {/* <Carousel/>  */}
-    <Route path='/' element={<Carousel/>} />
-    <Route path='/about' element={<About/>} />
-    <Route path='/projects' element={<Projects/>} />
-    <Route path='/contact' element={<Contact/>} />
-    <Route path='/Thank-You' element={<ThankYou/>} />
+    <Route path='/react-portfolio/' element={<Carousel/>} />
+    <Route path='/react-portfolio/about' element={<About/>} />
+    <Route path='/react-portfolio/projects' element={<Projects/>} />
+    <Route path='/react-portfolio/contact' element={<Contact/>} />
+    <Route path='/react-portfolio/Thank-You' element={<ThankYou/>} />
     </Routes>
     </Router>
     
