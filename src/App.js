@@ -13,7 +13,7 @@ import Carousel from './components/Carousel';
 
 function App() {
   return <div>
-    <Header/>
+   
 
     
       
@@ -21,6 +21,7 @@ function App() {
     
     <Routes>
     {/* <Carousel/>  */}
+    <Header/>
     <Route path='/react-portfolio/' element={<Carousel/>} />
     <Route path='/react-portfolio/about' element={<About/>} />
     <Route path='/react-portfolio/projects' element={<Projects/>} />
