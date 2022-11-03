@@ -5,7 +5,7 @@ import About from './components/About';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
 import ThankYou from "./components/ThankYou";
-import { HashRouter as Router, Routes, Route, BrowserRouter, Switch}
+import { HashRouter as Router, Routes, Route, BrowserRouter}
     from 'react-router-dom';
 
 
@@ -19,7 +19,7 @@ function App() {
       
     <BrowserRouter>
     
-    <Switch>
+    <Routes>
     {/* <Carousel/>  */}
     <Header/>
     <Route path='/' element={<Carousel/>} />
@@ -27,7 +27,7 @@ function App() {
     <Route path='/projects' element={<Projects/>} />
     <Route path='/contact' element={<Contact/>} />
     <Route path='/Thank-You' element={<ThankYou/>} />
-    </Switch>
+    </Routes>
     </BrowserRouter>
     
     
